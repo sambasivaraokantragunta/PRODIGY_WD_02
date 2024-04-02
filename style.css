@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+}
+
+#myH1 {
+    font-size: 7rem;
+    font-family: "Arial", sans-serif;
+    color: #ff4d4d;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 5px solid #1a1a1a;
+    border-radius: 50px;
+    background-color: #333;
+}
+
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: #ffff66;
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+    margin-right: 20px;
+}
+
+#startBtn {
+    background-color: #ff6384; /* Changed start button background color */
+}
+
+#startBtn:hover {
+    background-color: #e74c3c; /* Changed start button hover background color */
+}
+
+#stopBtn {
+    background-color: #7f8c8d; /* Changed stop button background color */
+}
+
+#stopBtn:hover {
+    background-color: #626567; /* Changed stop button hover background color */
+}
+
+#resetBtn {
+    background-color: #3498db; /* Changed reset button background color */
+}
+
+#resetBtn:hover {
+    background-color: #2980b9; /* Changed reset button hover background color */
+}
